@@ -1,13 +1,8 @@
 import pandas as pd
-import numpy as np
-import joblib
 from PIL import Image
-from sklearn.preprocessing import LabelEncoder
-import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
+from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
-import joblib
 from sklearn.feature_selection import mutual_info_regression
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
